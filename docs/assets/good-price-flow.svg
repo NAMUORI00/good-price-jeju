@@ -1,0 +1,38 @@
+<svg width="1280" height="250" viewBox="0 0 1280 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="공공데이터포털의 착한가격 업소 CSV를 JSON으로 변환하고 지역별 데이터셋으로 필드를 통일한 뒤, 웹 화면에서 지역, 업종, 품목으로 걸러 카카오맵에 업소 위치를 표시한다. 파란 테두리는 직접 구현한 부분이다.">
+<title>착한가격 업소 지도 데이터 흐름</title>
+<rect x="60.0" y="60.0" width="220.0" height="84.0" rx="14" fill="none" stroke="#7d8590" stroke-opacity="0.6" stroke-width="1.6"/>
+<g transform="translate(76.0,90.0) scale(1.000)" stroke="#7d8590" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M4,5 a8,3 0 1 0 16,0 a8,3 0 1 0 -16,0 v14 a8,3 0 0 0 16,0 v-14 M4,12 a8,3 0 0 0 16,0"/></g>
+<text x="190.0" y="91.0" fill="#7d8590" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">공공데이터포털</text>
+<text x="190.0" y="116.0" fill="#7d8590" font-size="15" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">착한가격 업소 CSV</text>
+<rect x="330.0" y="60.0" width="220.0" height="84.0" rx="14" fill="none" stroke="#2f81f7" stroke-opacity="0.9" stroke-width="1.8"/>
+<g transform="translate(346.0,90.0) scale(1.000)" stroke="#2f81f7" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M3,4 h18 v16 h-18 z M7,9 l3,3 l-3,3 M12,15 h5"/></g>
+<text x="460.0" y="91.0" fill="#2f81f7" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">변환과 검색 모듈</text>
+<text x="460.0" y="116.0" fill="#7d8590" font-size="15" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">CSV를 JSON으로</text>
+<rect x="600.0" y="60.0" width="220.0" height="84.0" rx="14" fill="none" stroke="#2f81f7" stroke-opacity="0.9" stroke-width="1.8"/>
+<g transform="translate(616.0,90.0) scale(1.000)" stroke="#2f81f7" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M2,5 h7 l2,3 h11 v12 h-20 z"/></g>
+<text x="730.0" y="91.0" fill="#2f81f7" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">지역별 데이터셋</text>
+<text x="730.0" y="116.0" fill="#7d8590" font-size="15" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">필드명 통일</text>
+<rect x="870.0" y="60.0" width="160.0" height="84.0" rx="14" fill="none" stroke="#2f81f7" stroke-opacity="0.9" stroke-width="1.8"/>
+<g transform="translate(886.0,90.0) scale(1.000)" stroke="#2f81f7" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M10,3 a7,7 0 1 0 0.01,0 z M15,15 l6,6"/></g>
+<text x="970.0" y="91.0" fill="#2f81f7" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">필터와 검색</text>
+<text x="970.0" y="116.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">지역, 업종, 품목</text>
+<rect x="1080.0" y="60.0" width="160.0" height="84.0" rx="14" fill="none" stroke="#7d8590" stroke-opacity="0.6" stroke-width="1.6"/>
+<g transform="translate(1096.0,90.0) scale(1.000)" stroke="#7d8590" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M12,2 a10,10 0 1 0 0.01,0 z M2,12 h20 M12,2 a15,10 0 0 1 0,20 a15,10 0 0 1 0,-20"/></g>
+<text x="1180.0" y="91.0" fill="#7d8590" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">카카오맵</text>
+<text x="1180.0" y="116.0" fill="#7d8590" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">핀, 로드뷰</text>
+<path d="M280.0,102.0 L324.0,102.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316.1,106.2 L324.0,102.0 L316.1,97.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M550.0,102.0 L594.0,102.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M586.1,106.2 L594.0,102.0 L586.1,97.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M820.0,102.0 L864.0,102.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M856.1,106.2 L864.0,102.0 L856.1,97.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030.0,102.0 L1074.0,102.0" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1066.1,106.2 L1074.0,102.0 L1066.1,97.8" stroke="#7d8590" stroke-opacity="0.9" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="364.8" y="172.0" width="160.4" height="28.0" rx="14.0" fill="none" stroke="#2f81f7" stroke-opacity="0.7" stroke-width="1.2"/>
+<text x="445.0" y="187.0" fill="#2f81f7" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace">module/search.js</text>
+<rect x="647.4" y="172.0" width="135.2" height="28.0" rx="14.0" fill="none" stroke="#2f81f7" stroke-opacity="0.7" stroke-width="1.2"/>
+<text x="715.0" y="187.0" fill="#2f81f7" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace">contentsJSON/</text>
+<rect x="911.8" y="172.0" width="76.4" height="28.0" rx="14.0" fill="none" stroke="#2f81f7" stroke-opacity="0.7" stroke-width="1.2"/>
+<text x="950.0" y="187.0" fill="#2f81f7" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace">app.js</text>
+<text x="1240.0" y="226.0" fill="#7d8590" font-size="14" font-weight="600" text-anchor="end" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif">파란 테두리: 직접 구현</text>
+</svg>
